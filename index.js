@@ -1,8 +1,8 @@
 // Iteration 1: Names and Input
-let driverName = "hacker1";
+let driverName = "Marion";
 console.log(`The driver's name is ${driverName}.`);
 
-let navigatorName = "hacker2";
+let navigatorName = "Lea";
 console.log(`The navigator's name is ${navigatorName}.`);
 
 // Iteration 2: Conditionals
@@ -36,14 +36,14 @@ for (let i=navigatorName.length -1; i>=0; i--){
 console.log (reversed)
 
 
-if(driverName > navigatorName){
+
+if (driverName.localeCompare(navigatorName)){
   console.log("The driver's name goes first")
-}else if (navigatorName > driverName){
+}else if (navigatorName.localeCompare(driverName)){
   console.log("The navigator's name goes first")
 }else{
   console.log("You both have the same name?")
 }
-
 
 
 
